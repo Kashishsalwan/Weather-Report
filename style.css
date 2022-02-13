@@ -1,0 +1,77 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1552083375-1447ce886485?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGFuZCUyMHNjYXBlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=60');
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    
+
+}
+.app
+{
+    width: 50vh;
+    margin: 100px auto;
+    background-color: #fad2e1;
+    padding: 20px;
+    text-align: center;
+}
+.app > *
+{
+    margin-bottom: 20px;
+}
+.input-box
+{
+    width: 100%;
+    background-color: #feeafa;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #582233;
+    font-size: 1.2rem;
+    height: 50px;
+    padding: 0px 10px;
+    text-align: center;
+}
+.input-box:focus
+{
+    background-color: rgba(255,255,255);
+}
+.weather-info
+{
+    color: #582233;
+    padding: 20px;
+    line-height: 2rem;
+    background-color: #feeafa;
+    height: 50vh;
+    border-radius: 10px;
+
+}
+.location-details
+{
+    font-weight: bold;
+}
+.weather-status
+{
+    padding: 20px;
+}
+.temp
+{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0px;
+    text-shadow: 2px 4px rgba(0,0,0,0.3);
+
+}
+.min-max,.weather
+{
+    font-size: 12pt;
+    font-weight: 600;
+}
